@@ -475,7 +475,7 @@ log.Fatal(s.ListenAndServe())</pre>
     <span id="Request.RemoteAddr">RemoteAddr</span> <a href="http://godoc.org/builtin#string">string</a>
     <span class="com">// RequestURI是被客户端发送到服务端的请求的请求行中未修改的请求URI</span>
     <span class="com">// （参见RFC 2616, Section 5.1）</span>
-    <span class="com">// 一般应使用URI字段，在客户端设置请求的本字段会导致错误。</span>
+    <span class="com">// 一般应使用 URL 字段，在客户端设置请求的本字段会导致错误。</span>
     <span id="Request.RequestURI">RequestURI</span> <a href="http://godoc.org/builtin#string">string</a>
     <span class="com">// TLS字段允许HTTP服务器和其他软件记录接收到该请求的TLS连接的信息</span>
     <span class="com">// 本字段不是ReadRequest函数填写的。</span>
